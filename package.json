@@ -1,0 +1,16 @@
+{
+    "name": "spikit-test",
+    "version": "1.0.0",
+    "description": "",
+    "main": "app/index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/glob": "^5.0.30",
+        "glob": "^7.1.2",
+        "spikit": "git+ssh://git@github.com/TheColorRed/spikitlib.git"
+    }
+}

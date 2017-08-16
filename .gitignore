@@ -1,0 +1,6 @@
+*
+!/src
+!/resources
+!/.gitignore
+!/package.json
+!/tsconfig.json
