@@ -9,8 +9,9 @@
     "author": "",
     "license": "ISC",
     "dependencies": {
-        "@types/glob": "^5.0.30",
+        "@types/glob": "^5.0.31",
         "glob": "^7.1.2",
+        "spikit": "github:Spikit/spikitlib",
         "spikitlib": "Spikit/spikitlib.git"
     }
 }

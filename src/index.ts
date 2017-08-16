@@ -6,11 +6,15 @@ import app from './config/app'
 import server from './config/server'
 import sass from './config/sass'
 
+import Kernel from './http/Kernel'
+
 init({
+  app: app,
   view: view,
   static: app.static,
   server: server,
-  sass: sass
+  sass: sass,
+  kernel: Kernel
 })
 
 // Load an import our routes
