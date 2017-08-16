@@ -11,6 +11,6 @@
     "dependencies": {
         "@types/glob": "^5.0.30",
         "glob": "^7.1.2",
-        "spikit": "git+ssh://git@github.com/TheColorRed/spikitlib.git"
+        "spikit": "git+ssh://git@github.com/Spikit/spikitlib.git"
     }
 }
