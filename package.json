@@ -1,5 +1,5 @@
 {
-    "name": "spikit",
+    "name": "spikit-framework",
     "version": "1.0.0",
     "description": "",
     "main": "app/index.js",
