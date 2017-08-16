@@ -21,5 +21,15 @@ export default {
    */
   paths: [
     path.join(process.cwd(), 'resources/views')
-  ]
+  ],
+
+  /**
+   *----------------------------------------------------------------------------
+   * View Engine basedir
+   *----------------------------------------------------------------------------
+   *
+   * Pug requires that a basedir be set in order to use absolute paths.
+   * This is where we set the basedir for our views in the application.
+   */
+  basedir: path.join(process.cwd(), 'resources/views')
 }

@@ -1,5 +1,5 @@
 {
-    "name": "spikit-test",
+    "name": "spikit",
     "version": "1.0.0",
     "description": "",
     "main": "app/index.js",
@@ -11,6 +11,6 @@
     "dependencies": {
         "@types/glob": "^5.0.30",
         "glob": "^7.1.2",
-        "spikit": "git+ssh://git@github.com/Spikit/spikitlib.git"
+        "spikitlib": "Spikit/spikitlib.git"
     }
 }
