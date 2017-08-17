@@ -11,5 +11,5 @@ export default {
   locales: [
     { en: { name: 'English', iso: 'en' } }
   ],
-  static: [path.join(process.cwd(), 'resources/static')]
+  static: [path.join(process.cwd(), 'public')]
 }

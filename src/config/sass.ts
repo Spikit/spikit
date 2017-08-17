@@ -35,7 +35,7 @@ export default {
    *
    * What folder do you want the resulting css files to be saved in?
    */
-  dest: path.join(process.cwd(), 'resources/public/css'),
+  dest: path.join(process.cwd(), 'public/css'),
 
   /**
    *----------------------------------------------------------------------------
