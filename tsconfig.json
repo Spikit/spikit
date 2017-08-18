@@ -4,9 +4,6 @@
     "module": "commonjs",
     "outDir": "app"
   },
-  "files": [
-    "./index.d.ts"
-  ],
   "include": [
     "src/**/*.ts"
   ]

@@ -1,4 +1,4 @@
-import { Locale, Auth } from 'spikit'
+import { middleware } from 'spikit'
 
 export default class Kernel {
   /**
@@ -11,7 +11,7 @@ export default class Kernel {
    * The middleware listed here is run during every request to your application.
    */
   public static readonly middleware = [
-    Locale
+    middleware.locale
   ]
 
   /**
@@ -34,6 +34,7 @@ export default class Kernel {
    * This is a list of groups that only run on defined middleware groups
    */
   public static readonly routeMiddleware = {
-    auth: Auth
+    auth: middleware.auth,
+    ajax: middleware.ajax
   }
 }
