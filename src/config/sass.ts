@@ -17,46 +17,48 @@ export default {
    */
   enabled: true,
 
-  /**
-   *----------------------------------------------------------------------------
-   * Sass Source Files
-   *----------------------------------------------------------------------------
-   *
-   * Where are the sass files located? This will take the files that are not
-   * prefixed with an underscore, such as "_input.scss" and create css files
-   * from them.
-   */
-  src: path.join(process.cwd(), 'resources/sass'),
+  sass: {
+    /**
+     *----------------------------------------------------------------------------
+     * Sass Source Files
+     *----------------------------------------------------------------------------
+     *
+     * Where are the sass files located? This will take the files that are not
+     * prefixed with an underscore, such as "_input.scss" and create css files
+     * from them.
+     */
+    src: path.join(process.cwd(), 'resources/sass'),
 
-  /**
-   *----------------------------------------------------------------------------
-   * Sass Destination folder
-   *----------------------------------------------------------------------------
-   *
-   * What folder do you want the resulting css files to be saved in?
-   */
-  dest: path.join(process.cwd(), 'public/css'),
+    /**
+     *----------------------------------------------------------------------------
+     * Sass Destination folder
+     *----------------------------------------------------------------------------
+     *
+     * What folder do you want the resulting css files to be saved in?
+     */
+    dest: path.join(process.cwd(), 'public/css'),
 
-  /**
-   *----------------------------------------------------------------------------
-   * Sass output style
-   *----------------------------------------------------------------------------
-   *
-   * This is the style that yo would like the resulting css to compile into.
-   * The supported formats are as follows:
-   *
-   * "compact" | "compressed" | "expanded" | "nested"
-   */
-  outputStyle: 'compressed',
+    /**
+     *----------------------------------------------------------------------------
+     * Sass output style
+     *----------------------------------------------------------------------------
+     *
+     * This is the style that yo would like the resulting css to compile into.
+     * The supported formats are as follows:
+     *
+     * "compact" | "compressed" | "expanded" | "nested"
+     */
+    outputStyle: 'compressed',
 
-  /**
-   *----------------------------------------------------------------------------
-   * Sass prefix
-   *----------------------------------------------------------------------------
-   *
-   * Where prefix is at <link rel="stylesheets" href="prefix/style.css"/>
-   * This is usually set as your last part of the dest. It will tell the sass middleware
-   * that any request file will always be prefixed with <prefix> and this prefix should be ignored.
-   */
-  prefix: '/css'
+    /**
+     *----------------------------------------------------------------------------
+     * Sass prefix
+     *----------------------------------------------------------------------------
+     *
+     * Where prefix is at <link rel="stylesheets" href="prefix/style.css"/>
+     * This is usually set as your last part of the dest. It will tell the sass middleware
+     * that any request file will always be prefixed with <prefix> and this prefix should be ignored.
+     */
+    prefix: '/css'
+  }
 }
