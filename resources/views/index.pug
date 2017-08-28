@@ -2,5 +2,8 @@ doctype html
 html
   head
     title Spikit
+    link(rel='stylesheet', href='/css/main.css')
+    script(src='/js/main.js')
   body
-    h1 Spikit
+    .welcome
+      h1= trans('index.spikit', 'Spikit')
