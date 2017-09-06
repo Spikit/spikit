@@ -11,7 +11,8 @@ export default class Kernel {
    * The middleware listed here is run during every request to your application.
    */
   public static readonly middleware = [
-    middleware.locale
+    middleware.locale,
+    middleware.userAuth,
   ]
 
   /**
